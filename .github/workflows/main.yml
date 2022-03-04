@@ -23,5 +23,5 @@ jobs:
       with:
         context: ${{ env.GITHUB_WORKSPACE }}
         file: ${{ env.GITHUB_WORKSPACE }}/Dockerfile
-        tags: akshatarrao/csi5112-backend:latest
+        tags: egrocsi5112/docker-repo:latest
         push: true
